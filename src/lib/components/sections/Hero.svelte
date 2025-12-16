@@ -82,9 +82,17 @@
     <div class="order-1 md:order-2 relative">
       <div class="relative aspect-[3/4] max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl border border-white/10 group">
         <div class="absolute inset-0 bg-gradient-to-t from-noche/80 via-transparent to-transparent z-10"></div>
-        <!-- Placeholder for Book Cover -->
-        <div class="w-full h-full bg-profundo flex items-center justify-center text-texto-suave/20">
-          <img src="https://placehold.co/600x800/0B1430/F6E6A8?text=La+Luz+Estelar" alt="Tapa del libro La Luz Estelar" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+        <div class="relative w-full max-w-md mx-auto perspective-1000">
+          <div class="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform rotate-y-12 hover:rotate-y-0 transition-transform duration-700">
+            <img 
+              src="/hero-image.jpg" 
+              alt="La Luz Estelar - Portada" 
+              class="w-full h-auto object-cover"
+            />
+            
+            <!-- Shine Effect -->
+            <div class="absolute inset-0 bg-gradient-to-tr from-white/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+          </div>
         </div>
       </div>
       

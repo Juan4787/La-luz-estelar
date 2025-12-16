@@ -4,7 +4,7 @@
   import Intro from './lib/components/sections/Intro.svelte';
   import Emotional from './lib/components/sections/Emotional.svelte';
   import Target from './lib/components/sections/Target.svelte';
-  import Showcase from './lib/components/sections/Showcase.svelte';
+
   import Includes from './lib/components/sections/Includes.svelte';
   import Usage from './lib/components/sections/Usage.svelte';
   import Pricing from './lib/components/sections/Pricing.svelte';
@@ -33,13 +33,14 @@
   });
 </script>
 
-<main class="bg-noche min-h-screen text-texto-principal selection:bg-dorado selection:text-noche overflow-x-hidden">
+<main class="relative min-h-screen text-texto-principal selection:bg-dorado selection:text-noche overflow-x-hidden">
+  <div class="stars-bg"></div>
   <Navbar />
   <Hero />
   <Intro />
   <Emotional />
   <Target />
-  <Showcase />
+
   <Includes />
   <Usage />
   <Pricing />

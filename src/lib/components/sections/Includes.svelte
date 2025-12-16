@@ -54,9 +54,14 @@
     </div>
 
     <div class="order-1 md:order-2 flex justify-center">
-      <div class="relative w-full max-w-sm aspect-[3/4] bg-profundo rounded-xl shadow-2xl border border-white/10 rotate-3 hover:rotate-0 transition-transform duration-500">
-        <img src="https://placehold.co/600x800/0B1430/F6E6A8?text=Interior+PDF" alt="Vista previa del PDF" class="w-full h-full object-cover rounded-xl opacity-80" />
-        <div class="absolute inset-0 bg-gradient-to-t from-noche/50 to-transparent rounded-xl"></div>
+      <div class="relative w-full max-w-xs mx-auto md:max-w-none md:w-[320px]">
+        <div class="relative z-10 rounded-2xl overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
+          <img 
+            src="/hero-image.jpg" 
+            alt="Interior del libro" 
+            class="w-full h-auto shadow-glow"
+          />
+        </div>
       </div>
     </div>
   </div>

@@ -7,10 +7,59 @@
 }
 
 body {
-  background-color: #070A14;
+  background-color: transparent;
+  /* Allow stars-bg to show through */
   color: #F5F7FF;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+}
+
+/* Star background layer */
+.stars-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: #070A14;
+  /* Base background color */
+  background-image:
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='glow'%3E%3CfeGaussianBlur stdDeviation='1' result='coloredBlur'/%3E%3CfeMerge%3E%3CfeMergeNode in='coloredBlur'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3Cpath d='M200 195L202 198L205 200L202 202L200 205L198 202L195 200L198 198L200 195Z' fill='white' filter='url(%23glow)' opacity='0.1'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M250 245L252 248L255 250L252 252L250 255L248 252L245 250L248 248L250 245Z' fill='white' opacity='0.08'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 600 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M300 295L301 298L304 300L301 302L300 304L299 302L296 300L299 298L300 295Z' fill='white' opacity='0.05'/%3E%3C/svg%3E");
+  background-position:
+    0 0,
+    100px 50px,
+    -50px 100px;
+  background-size:
+    400px 400px,
+    500px 500px,
+    600px 600px;
+  background-repeat: repeat;
+}
+
+/* Separate animation layer for the stars only */
+.stars-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  animation: shine 8s ease-in-out infinite;
+}
+
+@keyframes shine {
+
+  0%,
+  85% {
+    opacity: 0.15;
+  }
+
+  92% {
+    opacity: 0.05;
+  }
+
+  100% {
+    opacity: 0.15;
+  }
 }
 
 h1,
