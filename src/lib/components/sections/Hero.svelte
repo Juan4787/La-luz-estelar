@@ -51,9 +51,7 @@
           </Button>
           <span class="text-xs text-texto-suave/60 mt-2">Desde $15.000 · Acceso inmediato</span>
         </div>
-        <Button href="#muestra" variant="ghost" className="w-full sm:w-auto">
-          Ver una muestra
-        </Button>
+
       </div>
 
       <div class="mt-12 flex flex-wrap justify-center md:justify-start gap-6 text-sm text-texto-suave/60">
