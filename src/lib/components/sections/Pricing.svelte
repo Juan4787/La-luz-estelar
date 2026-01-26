@@ -37,7 +37,7 @@
         </div>
 
         <Button 
-          href="https://pay.hotmart.com/E103406634Y?off=5iwa98p0" 
+          href="https://wa.me/5491136380368?text=Estoy%20interesado%20en%20adquirir%20el%20eBook%3A%20La%20Luz%20Estelar" 
           variant="primary" 
           className="w-full shadow-glow mb-4 !text-lg !py-5"
           target="_blank"

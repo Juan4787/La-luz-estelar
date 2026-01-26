@@ -46,7 +46,7 @@
 
       <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center">
         <div class="flex flex-col items-center">
-          <Button href="https://pay.hotmart.com/E103406634Y?off=5iwa98p0" target="_blank" rel="noopener noreferrer" variant="primary" className="w-full sm:w-auto shadow-glow">
+          <Button href="https://wa.me/5491136380368?text=Estoy%20interesado%20en%20adquirir%20el%20eBook%3A%20La%20Luz%20Estelar" target="_blank" rel="noopener noreferrer" variant="primary" className="w-full sm:w-auto shadow-glow">
             Comprar ahora y leer hoy
           </Button>
           <span class="text-xs text-texto-suave/60 mt-2">Desde $15.000 · Acceso inmediato</span>

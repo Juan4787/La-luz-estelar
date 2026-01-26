@@ -41,7 +41,7 @@
       <button on:click={() => scrollToSection('faq')} class="text-sm text-texto-suave hover:text-dorado transition-colors">
         Preguntas
       </button>
-      <Button href="https://pay.hotmart.com/E103406634Y?off=5iwa98p0" target="_blank" rel="noopener noreferrer" variant="primary" className="!py-2 !px-6 !text-sm">
+      <Button href="https://wa.me/5491136380368?text=Estoy%20interesado%20en%20adquirir%20el%20eBook%3A%20La%20Luz%20Estelar" target="_blank" rel="noopener noreferrer" variant="primary" className="!py-2 !px-6 !text-sm">
         Quiero leerlo
       </Button>
     </div>
@@ -66,7 +66,7 @@
       <button on:click={() => scrollToSection('faq')} class="text-left text-texto-suave hover:text-dorado py-2">
         Preguntas
       </button>
-      <Button href="https://pay.hotmart.com/E103406634Y?off=5iwa98p0" target="_blank" rel="noopener noreferrer" variant="primary" className="w-full justify-center">
+      <Button href="https://wa.me/5491136380368?text=Estoy%20interesado%20en%20adquirir%20el%20eBook%3A%20La%20Luz%20Estelar" target="_blank" rel="noopener noreferrer" variant="primary" className="w-full justify-center">
         Quiero leerlo
       </Button>
     </div>
